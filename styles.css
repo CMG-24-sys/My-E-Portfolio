@@ -352,7 +352,7 @@ margin-bottom: 40px;
 
 .project:hover .project__description {
     opacity: 1;
-    translateY(-50%);
+    transform: translateY(100%);
 }
 .project__list {
     padding-top: 40px;
@@ -469,7 +469,8 @@ padding-right: 30px;
 
 /* SMALL PHONES */
 @media (max-width:480px) {
-.nav__link:not (:last-child) {
+
+.nav__link:not(:last-child) {
     display: none;
 }
 
